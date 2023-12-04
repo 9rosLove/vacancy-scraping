@@ -4,9 +4,11 @@ orm_frameworks = ["SQLAlchemy", "Django ORM", "Peewee", "Pony ORM"]
 web_apis = [
     "Flask-RESTful",
     "FastAPI",
-    "Django REST framework",
+    "Django REST Framework",
     "Falcon",
     "DRF",
+    "REST API",
+    "GraphQL",
 ]
 ml_libraries = ["NumPy", "Pandas", "scikit-learn", "TensorFlow", "PyTorch"]
 databases = [
@@ -49,8 +51,7 @@ utilities = [
 devops_tools = ["Docker", "Kubernetes", "Fabric", "Ansible"]
 logging_monitoring = ["ELK Stack", "Prometheus", "Grafana"]
 security_tools = ["Bandit", "Pyright", "Hashlib"]
-sersion_control = ["Git"]
-operating_systems = ["Linux"]
+operating_systems = ["Linux", "Ubuntu", "unix"]
 data_visualization = ["Streamlit"]
 cloud_platforms = ["AWS"]
 other = [
@@ -75,7 +76,6 @@ PYTHON_TECHNOLOGIES = (
     + devops_tools
     + logging_monitoring
     + security_tools
-    + sersion_control
     + operating_systems
     + data_visualization
     + cloud_platforms
